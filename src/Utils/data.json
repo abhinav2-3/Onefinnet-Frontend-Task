@@ -1,0 +1,24 @@
+{
+  "FoodButton": [
+    {
+      "name": "Fruits and Vegetables",
+      "category": "Vegetarian"
+    },
+    {
+      "name": "Bakery",
+      "category": "Pasta"
+    },
+    {
+      "name": "Meat and Seafood",
+      "category": "Chicken"
+    },
+    {
+      "name": "Beverage",
+      "category": "Vegan"
+    },
+    {
+      "name": "Biscuits and Snacks",
+      "category": "Dessert"
+    }
+  ]
+}
