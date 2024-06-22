@@ -21,7 +21,7 @@ const HeroSection = () => {
               Buy fresh and organic <br />
               <div className="flex gap-4">
                 <h1>Grocery Food</h1>
-                <div className="w-44 h-10 mt-2 overflow-hidden rounded-full absolute top-36 right-24 md:hidden lg:block lg:relative lg:top-0 lg:right-0">
+                <div className=" hidden w-44 h-10 mt-2 overflow-hidden rounded-full absolute top-36 right-16 lg:block lg:relative lg:top-0 lg:right-0">
                   <img
                     src="https://ch-api.healthhub.sg/api/public/content/1448f38111c346ecb268da0dbd7e42fc?v=6bd78917&t=livehealthyheaderimage"
                     alt=""
@@ -39,13 +39,13 @@ const HeroSection = () => {
               <button className="font-semibold h-10 flex items-center gap-2 py-2 px-4 bg-green-800 text-white rounded-3xl">
                 SHOP NOW <FaArrowRight />
               </button>
-              <aside className="flex justify-between w-[40%] md:1/3">
+              <aside className="flex justify-between gap-4 w-[40%] md:1/3">
                 <div>
-                  <h1 className="font-bold text-4xl">35k+</h1>
+                  <h1 className="font-bold text-3xl md:text-4xl">35k+</h1>
                   <span className="text-slate-400">Users</span>
                 </div>
                 <div>
-                  <h1 className="font-bold text-4xl">18k+</h1>
+                  <h1 className="font-bold text-3xl md:text-4xl">18k+</h1>
                   <span className="text-slate-400">Products</span>
                 </div>
               </aside>

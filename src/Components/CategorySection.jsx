@@ -46,7 +46,7 @@ const CategorySection = () => {
             <button
               key={btn.name}
               onClick={() => setActiveBtn(btn.category)}
-              className={`uppercase py-1 text-sm md:text-lg px-4 md:py-3 md:px-8 bg-green-800 text-white font-medium  rounded-3xl ${
+              className={`uppercase py-1 text-sm md:text-lg px-4 md:py-3 md:px-8 bg-green-800 text-white font-medium rounded-3xl ${
                 activeBtn !== btn.category && "bg-slate-300/40 text-black"
               }`}
             >
